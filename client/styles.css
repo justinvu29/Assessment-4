@@ -4,13 +4,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(255, 255, 244);
 }
 
-#advice-container {
+#car-section {
     width: 150vw;
     height: 70vh;
-    background-color: rgb(163, 218, 223);
+    background-color: rgb(134, 227, 236);
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
+}
+
+#div {
+    display: flex;
+    justify-content: center;
 }
