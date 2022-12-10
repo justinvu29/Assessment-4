@@ -1,4 +1,4 @@
-let carList = []
+let carList = ['Malibu', 'Camaro']
 
 module.exports = {
 

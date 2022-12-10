@@ -72,6 +72,7 @@ const submitCar = evt => {
 }
 
 const deleteCar = evt => {
+    evt.preventDefault()
     axios.delete(`http://localhost:4000/api/car/${evt.target.id}`)
         .then(response => {
             let { data } = response
@@ -81,6 +82,7 @@ const deleteCar = evt => {
 }
 
 const createEditForm = evt => {
+    evt.preventDefault()
     let listElement = evt.target.parentNode
     let editForm = listElement.children[0]
     let spanElement = listElement.children[1]
